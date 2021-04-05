@@ -1,0 +1,17 @@
+
+div.bg-container {
+  background-image: url('/assets/bg.jpg');
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+mat-form-field {
+  width: 100%;
+}
+mat-card.card-container {
+  width: 500px;
+  height: fit-content;
+  margin: auto;
+}

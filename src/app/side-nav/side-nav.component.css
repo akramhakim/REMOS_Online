@@ -1,0 +1,14 @@
+html, body {
+  color: primary;
+  background-color: primary;
+}
+
+.content {
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.title {
+  color:purple;
+}
+

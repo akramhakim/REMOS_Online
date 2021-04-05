@@ -1,0 +1,68 @@
+.example-container {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #eee;
+}
+
+.nav-container {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 220px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: rgb(73, 0, 73);
+}
+
+div a {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+div a div {
+  font-size: 15px;
+}
+
+div a div mat-icon {
+  font-size: 20px;
+}
+
+div a:hover div.align-self-center {
+  color: rgb(218, 218, 42);
+}
+
+div a:hover > div mat-icon {
+  color: rgb(218, 218, 42);
+}
+
+div.bg-active div {
+  background: #fefefe;
+}
+
+div.bg-active div a {
+  color: black;
+}
+
+div.bg-active div a.activeLink div {
+  color: #3c3835 !important;
+  font-weight: 900 !important;
+}
+
+div.logout {
+  cursor: pointer;
+}
+
+div.logout:hover {
+  font-weight: 700;
+  color: black;
+}
+
+div a.activeLink {
+  color:rgb(218, 218, 42);
+  font-weight: bold;
+}
